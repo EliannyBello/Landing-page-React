@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types"
 
-const Jumbotron = ({title="A warm welcome!", paragrapgh="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+const Jumbotron = ({title="¡No a la caza descontrolada!", paragrapgh="La caza excesiva y descontrolada provoca no solo daños ecológicos importantes y desaparición de especies sino que también acelera la pérdida de recursos naturales de gran importancia para las comunidades humanas.",
     boton= { title: "Call to action!", url: "/#" }
 
  }) => {
