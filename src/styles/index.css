@@ -1,12 +1,22 @@
-
-/* 
-
-    You can write your own styles here...
+.card {
+    display: flex;
+    box-shadow: -1px 1px 5px #ccc;
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    align-content: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
